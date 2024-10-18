@@ -1,0 +1,21 @@
+{
+  "name": "sec_18_project",
+  "version": "1.0.0",
+  "description": "Recipie",
+  "default": "index.html",
+  "scripts": {
+    "start": "rm -rf .parcel-cache && parcel index.html",
+    "build": "rm -rf .parcel-cache && parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
